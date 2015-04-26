@@ -24,5 +24,5 @@ output: html_document
 14. The activity column was only a numeric column previously; thus, a merge operation was performed in which a column was added that gave the activity name, not just number, every time it occurred in the data table.
 15. The subsequent dataset are then transformed into a tall dataset that has the Activity Number, Test Subject, and Activity Name as the first three columns, the forth column contains all variables that had mean or std in their title, and the fifth column contains the values for each of those variables.
 16. The data set is then transformed into a table that gives the mean value of each variable for each subject for each activity.  This can also be called the variable mean for the two way interaction between subject and activity.
-17.  This tidy summary talbe is then saved as a .csv file in the data file of the working directory.
+17.  This tidy summary talbe is then saved as a .txt file in the data file of the working directory with commas separating each value. This is done for ease of opening in excel.
 

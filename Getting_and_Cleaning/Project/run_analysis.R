@@ -106,6 +106,6 @@ fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%2
           act_melt_summary <- dcast(act_melt, variable ~ Activity_name*Test_Subject,mean)
                head(act_melt_summary)
                   
-          write.table(act_melt_summary, file = "./data/tidy_data.csv", sep = ",")
+          write.table(act_melt_summary, file = "./data/tidy_data.txt", sep = ",")
                act_melt_summary
 }     
