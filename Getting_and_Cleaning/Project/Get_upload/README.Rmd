@@ -6,7 +6,7 @@ output: html_document
 ---
 # run_analysis
 
-## Thr R script "run_analysis.R" is explained in detail below:
+## The R script "run_analysis.R" is explained in detail below:
 
 1. The script installs the dplyr, plyr, and reshape2 packages.  These lines are commented out currently because once installed these packages do not need to be reinstalled.  The script then loads the library for dplyr, plyr, and reshape2. 
 2. The scripts then checks for a folder called "data" in the working directory.  If no file exists it creats one.  
